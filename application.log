@@ -1,0 +1,459 @@
+2022-03-10 14:57:15.575  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 14:57:15.579  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 14:57:15.663  INFO 5260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-10 14:57:15.663  INFO 5260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-10 14:57:16.728  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 14:57:16.750  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2022-03-10 14:57:17.735  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 14:57:17.752  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 14:57:17.752  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 14:57:17.896  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 14:57:17.897  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2233 ms
+2022-03-10 14:57:18.187  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 14:57:18.291  INFO 5260 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-10 14:57:18.620  INFO 5260 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-10 14:57:18.813  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-10 14:57:19.131  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-10 14:57:19.192  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 14:57:19.709  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 14:57:19.724  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 14:57:19.815  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 14:57:20.325  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 14:57:20.388  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 14:57:20.404  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 5.536 seconds (JVM running for 7.542)
+2022-03-10 15:01:17.408  INFO 5260 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:01:17.416  INFO 5260 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-10 15:01:17.428  INFO 5260 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-10 15:01:17.572  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:01:17.573  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:01:17.913  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:01:17.917  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-03-10 15:01:18.051  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:01:18.052  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:01:18.053  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:01:18.098  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:01:18.098  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 520 ms
+2022-03-10 15:01:18.160  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:01:18.173  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-03-10 15:01:18.399  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-03-10 15:01:18.400  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:01:18.446  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:01:18.446  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:01:18.478  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:01:18.609  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:01:18.626  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:01:18.633  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 1.127 seconds (JVM running for 245.77)
+2022-03-10 15:02:36.139  INFO 5260 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:02:36.141  INFO 5260 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-03-10 15:02:36.151  INFO 5260 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-03-10 15:02:36.262  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:02:36.263  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:02:36.577  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:02:36.580  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-03-10 15:02:36.696  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:02:36.696  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:02:36.696  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:02:36.736  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:02:36.736  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 468 ms
+2022-03-10 15:02:36.773  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:02:36.781  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-03-10 15:02:36.884  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-03-10 15:02:36.884  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:02:37.487  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:02:37.488  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:02:37.523  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:02:37.651  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:02:37.664  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:02:37.669  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 1.46 seconds (JVM running for 324.807)
+2022-03-10 15:03:53.202  INFO 5260 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:03:53.204  INFO 5260 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-03-10 15:03:53.212  INFO 5260 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-03-10 15:03:53.329  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:03:53.330  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:03:53.653  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:03:53.657  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-03-10 15:03:53.773  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:03:53.774  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:03:53.775  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:03:53.813  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:03:53.813  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 477 ms
+2022-03-10 15:03:53.854  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:03:53.862  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-03-10 15:03:53.966  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-03-10 15:03:53.966  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:03:54.021  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:03:54.021  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:03:54.050  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:03:54.177  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:03:54.197  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:03:54.204  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.928 seconds (JVM running for 401.342)
+2022-03-10 15:04:06.192  INFO 5260 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:04:06.194  INFO 5260 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-03-10 15:04:06.212  INFO 5260 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-03-10 15:04:06.330  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:04:06.330  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:04:06.639  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:04:06.643  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-03-10 15:04:06.755  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:04:06.756  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:04:06.756  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:04:06.794  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:04:06.794  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 459 ms
+2022-03-10 15:04:06.833  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:04:06.841  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-03-10 15:04:06.948  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-03-10 15:04:06.949  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:04:07.000  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:04:07.001  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:04:07.031  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:04:07.136  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:04:07.149  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:04:07.155  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.885 seconds (JVM running for 414.293)
+2022-03-10 15:04:19.157  INFO 5260 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:04:19.159  INFO 5260 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-03-10 15:04:19.171  INFO 5260 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-03-10 15:04:19.281  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:04:19.282  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:04:19.578  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:04:19.641  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:04:19.770  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:04:19.771  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:04:19.771  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:04:19.809  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:04:19.809  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 522 ms
+2022-03-10 15:04:19.847  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:04:19.855  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-03-10 15:04:19.954  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-03-10 15:04:19.954  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:04:19.999  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:04:20.000  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:04:20.034  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:04:20.525  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:04:20.539  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:04:20.546  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 1.313 seconds (JVM running for 427.684)
+2022-03-10 15:04:34.629  INFO 5260 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:04:34.632  INFO 5260 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-03-10 15:04:34.644  INFO 5260 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-03-10 15:04:34.772  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:04:34.772  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:04:35.071  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:04:35.086  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:04:35.196  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:04:35.197  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:04:35.197  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:04:35.233  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:04:35.234  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 456 ms
+2022-03-10 15:04:35.273  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:04:35.282  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-03-10 15:04:35.385  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-03-10 15:04:35.385  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:04:35.431  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:04:35.431  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:04:35.469  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:04:35.645  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:04:35.657  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:04:35.662  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.944 seconds (JVM running for 442.8)
+2022-03-10 15:14:55.052  INFO 5260 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:14:55.054  INFO 5260 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-03-10 15:14:55.064  INFO 5260 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-03-10 15:14:55.173  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:14:55.173  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:14:55.433  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:14:55.445  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:14:55.549  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:14:55.549  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:14:55.550  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:14:55.584  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:14:55.584  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 406 ms
+2022-03-10 15:14:55.621  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:14:55.629  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-03-10 15:14:55.720  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-03-10 15:14:55.720  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:14:55.761  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:14:55.761  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:14:55.852  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:14:55.945  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:14:55.958  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:14:55.966  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.84 seconds (JVM running for 1063.104)
+2022-03-10 15:15:38.632  INFO 5260 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:15:38.634  INFO 5260 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-03-10 15:15:38.642  INFO 5260 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-03-10 15:15:38.754  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:15:38.755  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:15:39.038  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:15:39.050  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:15:39.183  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:15:39.184  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:15:39.184  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:15:39.217  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:15:39.217  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 457 ms
+2022-03-10 15:15:39.256  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:15:39.264  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2022-03-10 15:15:39.358  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2022-03-10 15:15:39.358  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:15:39.379  INFO 5260 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:15:39.430  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:15:39.430  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:15:39.545  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:15:39.633  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:15:39.649  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:15:39.655  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.95 seconds (JVM running for 1106.793)
+2022-03-10 15:16:52.976  INFO 5260 --- [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:16:52.979  INFO 5260 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2022-03-10 15:16:52.992  INFO 5260 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2022-03-10 15:16:53.108  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 5260 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:16:53.108  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:16:53.378  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:16:53.393  INFO 5260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:16:53.524  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:16:53.525  INFO 5260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:16:53.525  INFO 5260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:16:53.558  INFO 5260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:16:53.558  INFO 5260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 446 ms
+2022-03-10 15:16:53.591  INFO 5260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:16:53.598  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2022-03-10 15:16:53.687  INFO 5260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2022-03-10 15:16:53.694  INFO 5260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:16:53.712  INFO 5260 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:16:53.747  INFO 5260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:16:53.748  INFO 5260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:16:53.833  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:16:53.927  INFO 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:16:53.939  INFO 5260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:16:53.945  INFO 5260 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.883 seconds (JVM running for 1181.083)
+2022-03-10 15:17:26.777  INFO 14852 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 14852 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:17:26.779  INFO 14852 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:17:26.833  INFO 14852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-10 15:17:26.833  INFO 14852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-10 15:17:27.577  INFO 14852 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:17:27.633  INFO 14852 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:17:28.352  INFO 14852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:17:28.365  INFO 14852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:17:28.365  INFO 14852 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:17:28.618  INFO 14852 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:17:28.618  INFO 14852 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1784 ms
+2022-03-10 15:17:28.840  INFO 14852 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:17:28.905  INFO 14852 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-10 15:17:29.129  INFO 14852 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-10 15:17:29.267  INFO 14852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-10 15:17:29.571  INFO 14852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-10 15:17:29.611  INFO 14852 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:17:29.992  INFO 14852 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:17:30.365  INFO 14852 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:17:30.377  INFO 14852 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:17:30.716  WARN 14852 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:17:31.106  WARN 14852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-03-10 15:17:31.128  WARN 14852 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-03-10 15:17:31.131  INFO 14852 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:17:31.134  INFO 14852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-10 15:17:31.143  INFO 14852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-10 15:17:31.146  INFO 14852 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-10 15:17:31.159  INFO 14852 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-10 15:17:31.190 ERROR 14852 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-03-10 15:18:43.464  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 4248 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:18:43.466  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:18:43.524  INFO 4248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-10 15:18:43.524  INFO 4248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-10 15:18:44.258  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:18:44.319  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:18:45.060  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:18:45.073  INFO 4248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:18:45.074  INFO 4248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:18:45.191  INFO 4248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:18:45.191  INFO 4248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1666 ms
+2022-03-10 15:18:45.409  INFO 4248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:18:45.473  INFO 4248 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-10 15:18:45.681  INFO 4248 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-10 15:18:45.814  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-10 15:18:46.076  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-10 15:18:46.116  INFO 4248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:18:46.502  INFO 4248 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:18:46.877  INFO 4248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:18:46.887  INFO 4248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:18:47.218  WARN 4248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:18:47.609  INFO 4248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:18:47.645  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:18:47.658  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 4.682 seconds (JVM running for 5.921)
+2022-03-10 15:19:22.109  INFO 4248 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:19:22.114  INFO 4248 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-10 15:19:22.124  INFO 4248 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-10 15:19:22.219  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 4248 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:19:22.219  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:19:22.598  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:19:22.612  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:19:22.715  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:19:22.716  INFO 4248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:19:22.716  INFO 4248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:19:22.750  INFO 4248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:19:22.751  INFO 4248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 529 ms
+2022-03-10 15:19:22.787  INFO 4248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:19:22.794  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-03-10 15:19:22.886  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-03-10 15:19:22.886  INFO 4248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:19:22.901  INFO 4248 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:19:22.935  INFO 4248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:19:22.935  INFO 4248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:19:23.006  WARN 4248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:19:23.104  INFO 4248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:19:23.117  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:19:23.123  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.947 seconds (JVM running for 41.386)
+2022-03-10 15:19:23.144  INFO 4248 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-10 15:20:10.937  INFO 4248 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:20:10.938  INFO 4248 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-03-10 15:20:10.944  INFO 4248 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-03-10 15:20:11.036  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 4248 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:20:11.036  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:20:11.244  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:20:11.254  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:20:11.343  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:20:11.343  INFO 4248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:20:11.344  INFO 4248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:20:11.377  INFO 4248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:20:11.377  INFO 4248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 337 ms
+2022-03-10 15:20:11.410  INFO 4248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:20:11.418  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-03-10 15:20:11.494  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-03-10 15:20:11.494  INFO 4248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:20:11.505  INFO 4248 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:20:11.535  INFO 4248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:20:11.535  INFO 4248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:20:11.619  WARN 4248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:20:11.726  INFO 4248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:20:11.739  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:20:11.744  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.749 seconds (JVM running for 90.007)
+2022-03-10 15:20:11.761  INFO 4248 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-10 15:21:11.807  INFO 4248 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:21:11.809  INFO 4248 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-03-10 15:21:11.816  INFO 4248 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-03-10 15:21:11.929  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 4248 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:21:11.929  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:21:12.126  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:21:12.137  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:21:12.218  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:21:12.219  INFO 4248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:21:12.219  INFO 4248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:21:12.252  INFO 4248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:21:12.252  INFO 4248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 319 ms
+2022-03-10 15:21:12.282  INFO 4248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:21:12.289  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-03-10 15:21:12.365  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-03-10 15:21:12.365  INFO 4248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:21:12.377  INFO 4248 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:21:12.409  INFO 4248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:21:12.409  INFO 4248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:21:12.478  WARN 4248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:21:12.568  INFO 4248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:21:12.582  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:21:12.587  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.711 seconds (JVM running for 150.85)
+2022-03-10 15:21:12.604  INFO 4248 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-10 15:22:05.507  INFO 4248 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:22:05.509  INFO 4248 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-03-10 15:22:05.515  INFO 4248 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-03-10 15:22:05.599  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 4248 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:22:05.599  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:22:05.810  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:22:05.821  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:22:05.902  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:22:05.902  INFO 4248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:22:05.902  INFO 4248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:22:05.935  INFO 4248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:22:05.935  INFO 4248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 333 ms
+2022-03-10 15:22:05.966  INFO 4248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:22:05.973  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-03-10 15:22:06.062  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-03-10 15:22:06.062  INFO 4248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:22:06.076  INFO 4248 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:22:06.124  INFO 4248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:22:06.125  INFO 4248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:22:06.188  WARN 4248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:22:06.272  INFO 4248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:22:06.287  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:22:06.292  INFO 4248 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 0.734 seconds (JVM running for 204.554)
+2022-03-10 15:22:06.307  INFO 4248 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-10 15:22:40.460  INFO 9200 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 9200 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:22:40.461  INFO 9200 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:22:40.522  INFO 9200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-10 15:22:40.522  INFO 9200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-10 15:22:41.278  INFO 9200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:22:41.335  INFO 9200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:22:42.024  INFO 9200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:22:42.037  INFO 9200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:22:42.038  INFO 9200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:22:42.148  INFO 9200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:22:42.148  INFO 9200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1625 ms
+2022-03-10 15:22:42.379  INFO 9200 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:22:42.446  INFO 9200 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-10 15:22:42.671  INFO 9200 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-10 15:22:42.864  INFO 9200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-10 15:22:43.129  INFO 9200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-10 15:22:43.170  INFO 9200 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:22:43.557  INFO 9200 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:22:43.934  INFO 9200 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:22:43.946  INFO 9200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:22:44.264  WARN 9200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:22:44.622  WARN 9200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-03-10 15:22:44.667  WARN 9200 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-03-10 15:22:44.670  INFO 9200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:22:44.681  INFO 9200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-10 15:22:44.691  INFO 9200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-10 15:22:44.695  INFO 9200 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-10 15:22:44.712  INFO 9200 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-10 15:22:44.746 ERROR 9200 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-03-10 15:22:56.845  INFO 4248 --- [RMI TCP Connection(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-10 15:22:57.131  INFO 4248 --- [RMI TCP Connection(26)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:22:57.132  INFO 4248 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-03-10 15:22:57.140  INFO 4248 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-03-10 15:23:52.180  INFO 9508 --- [restartedMain] it.csv.ProgettoCsvApplication            : Starting ProgettoCsvApplication using Java 11.0.13 on DESKTOP-3TD2OO1 with PID 9508 (C:\Java\workspace\progettoCsv\target\classes started by ACER in C:\Java\workspace\progettoCsv)
+2022-03-10 15:23:52.181  INFO 9508 --- [restartedMain] it.csv.ProgettoCsvApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:23:52.244  INFO 9508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-10 15:23:52.244  INFO 9508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-10 15:23:53.026  INFO 9508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:23:53.087  INFO 9508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:23:53.797  INFO 9508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-10 15:23:53.809  INFO 9508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-10 15:23:53.810  INFO 9508 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-10 15:23:53.922  INFO 9508 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:23:53.922  INFO 9508 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1677 ms
+2022-03-10 15:23:54.162  INFO 9508 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:23:54.239  INFO 9508 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-10 15:23:54.459  INFO 9508 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-10 15:23:54.594  INFO 9508 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-10 15:23:54.850  INFO 9508 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-10 15:23:54.893  INFO 9508 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-10 15:23:55.264  INFO 9508 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: it.csv.model.Book (class must be instantiated by Interceptor)
+2022-03-10 15:23:55.667  INFO 9508 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:23:55.680  INFO 9508 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:23:56.014  WARN 9508 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:23:56.366  INFO 9508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-10 15:23:56.445  INFO 9508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-10 15:23:56.456  INFO 9508 --- [restartedMain] it.csv.ProgettoCsvApplication            : Started ProgettoCsvApplication in 4.755 seconds (JVM running for 5.956)
