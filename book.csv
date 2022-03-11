@@ -1,4 +1,4 @@
-Titolo,Autore
-I robot,Asimov
-Il signore degli anelli,Tolkien
-Libro,Maggio Capatonda
+Titolo,Genere,Tipo
+I robot,FANTASY,CARTACEO
+Il signore degli anelli,FANTASY,CARTACEO
+Libro,FANTASY,CARTACEO

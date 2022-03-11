@@ -11,34 +11,32 @@ import javax.persistence.ManyToMany;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
 @Data
+@Entity
 @NoArgsConstructor
-public class Book {
+public class Autore {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String titolo;
-	private Tipo tipo;
-	private Genere genere;
-//	@ManyToMany(mappedBy = "books")
-//	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
-//	private Autore autori;
+	private String nome;
+	private String cognome;
 	
-	@ManyToMany(mappedBy = "books")
+//	@ManyToMany(mappedBy = "autori")
+//	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+//	private List<Book> books;
+
+	@ManyToMany(mappedBy = "autori")
 	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 	private List<CasaEditrice> editori;
 	
 	//Costruttore
-	public Book(String titolo, String genere, String tipo) {
-		this.titolo=titolo;
-		this.genere = Genere.valueOf(genere);
-		this.tipo= Tipo.valueOf(tipo);
+	public Autore(String nome, String cognome) {
+		this.nome=nome;
+		this.cognome=cognome;
 	}
-
+	
 }
